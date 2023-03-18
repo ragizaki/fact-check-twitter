@@ -7,28 +7,52 @@
   text-align: center;
   height: 100%;
   padding: 10px;
-  background-color: #282c34;
+  background-color: white;
+}
+
+.enabled{
+  margin-top: 55%;
+  margin-bottom: 15%;
+
+}
+
+.main-text{
+  margin-top: 10%;
+  margin-bottom: 10%;
+}
+
+.intro{
+margin-top: 10%;
+margin-bottom: 10%;
 }
 
 .App-logo {
-  height: 30vmin;
+  height: 40vmin;
+  width: 40vmin;
   pointer-events: none;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 5%;
 }
 
+.slider{
+  margin-top: 10%;
+  margin-bottom: 5%;
+
+}
+
+/*
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
     animation: App-logo-spin infinite 20s linear;
   }
-}
+}*/
 
 .App-header {
-  height: 100%;
-  display: flex;
-  flex-direction: column;
   align-items: center;
   justify-content: center;
   font-size: calc(10px + 2vmin);
-  color: white;
+  color: black;
 }
 
 .App-link {

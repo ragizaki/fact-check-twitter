@@ -13,26 +13,28 @@ class Popup extends Component {
   render() {
 
     return (
-      <ChakraProvider>
-        <div className="App">
-          <header className="d-flex flex-column app-header">
-            <div className="text-center intro">Fact Check the Internet With</div>
-            <img src={logo} className="App-logo" alt="logo" />
-            <hr />
-            <p className="main-text">
-              Insight is a real fact checking tool powered by AI to do stuff. Runs in the background
-            and can validate tweets from politicians. <a href="google.com" target="_blank">Learn more</a>
-            </p>
-            <div className="row d-flex slider ">
-              <p className="col right">
-                Enabled
-              </p>
-              <Switch size="md" colorScheme="orange" className="col left" />
+      <div className="App">
+        <header className="d-flex flex-column app-header">
+          <div className="text-center intro">Fact Check the Internet With</div>
+          <img src={logo} className="App-logo" alt="logo" />
+          <hr className="header" />
+          <p className="main-text">
+            Insight is a real-time fact checking tool powered by AI that runs in the background of your twitter feed. Insight
+            can automatically verify if the tweet you are looking at is legitamate in a matter of seconds. <a href="google.com" target="_blank" className="link">Learn more</a>
+          </p>
+          <b classname="enabled">
+            Enabled
+          </b>
+          <div class="button-cover">
+            <div class="button r" id="button-1">
+              <input type="checkbox" class="checkbox" />
+              <div class="knobs"></div>
+              <div class="layer"></div>
             </div>
-          </header>
-        </div>
-      </ChakraProvider>
+          </div>
 
+        </header>
+      </div>
     );
   }
 }
